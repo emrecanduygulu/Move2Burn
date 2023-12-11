@@ -11,6 +11,7 @@
 		25391F012A900F800036AECE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25391F002A900F800036AECE /* ContentView.swift */; };
 		25391F032A900F890036AECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25391F022A900F890036AECE /* Assets.xcassets */; };
 		25391F062A900F890036AECE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25391F052A900F890036AECE /* Preview Assets.xcassets */; };
+		255C40652A965181000FAFD8 /* GoalCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255C40642A965181000FAFD8 /* GoalCardView.swift */; };
 		25C405DA2A94FFDB00F3AB87 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C405D92A94FFDB00F3AB87 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,6 +21,7 @@
 		25391F002A900F800036AECE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		25391F022A900F890036AECE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25391F052A900F890036AECE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		255C40642A965181000FAFD8 /* GoalCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCardView.swift; sourceTree = "<group>"; };
 		25C405D92A94FFDB00F3AB87 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +76,7 @@
 			children = (
 				25391F002A900F800036AECE /* ContentView.swift */,
 				25C405D92A94FFDB00F3AB87 /* CardView.swift */,
+				255C40642A965181000FAFD8 /* GoalCardView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25391F012A900F800036AECE /* ContentView.swift in Sources */,
+				255C40652A965181000FAFD8 /* GoalCardView.swift in Sources */,
 				25C405DA2A94FFDB00F3AB87 /* CardView.swift in Sources */,
 				25391EFF2A900F800036AECE /* Move2BurnApp.swift in Sources */,
 			);

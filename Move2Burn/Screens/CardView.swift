@@ -25,12 +25,12 @@ struct CardView: View {
                     .frame(width: 40)
                 VStack {
                     Text(title)
-                        .font(.custom("SegoeUI-Bold", size: 20))
+                        .font(.custom("SegoeUI-Bold", size: 15))
                                         .foregroundColor(.black)
                     Spacer()
                         .frame(height: 10)
                     Text(subtitle)
-                        .font(.custom("SegoeUI-Bold", size: 15))
+                        .font(.custom("SegoeUI-Bold", size: 10))
                                         .foregroundColor(.black)
                 }
             }

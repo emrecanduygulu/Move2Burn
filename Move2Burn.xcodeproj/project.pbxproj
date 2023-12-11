@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		250BA0AD2B27C805009404D2 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BA0AC2B27C805009404D2 /* HealthManager.swift */; };
 		25391EFF2A900F800036AECE /* Move2BurnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25391EFE2A900F800036AECE /* Move2BurnApp.swift */; };
 		25391F012A900F800036AECE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25391F002A900F800036AECE /* ContentView.swift */; };
 		25391F032A900F890036AECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25391F022A900F890036AECE /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		250BA0AC2B27C805009404D2 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
 		25391EFB2A900F800036AECE /* Move2Burn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Move2Burn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25391EFE2A900F800036AECE /* Move2BurnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move2BurnApp.swift; sourceTree = "<group>"; };
 		25391F002A900F800036AECE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		250BA0AB2B27C7C0009404D2 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				250BA0AC2B27C805009404D2 /* HealthManager.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
 		25391EF22A900F800036AECE = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +65,7 @@
 		25391EFD2A900F800036AECE /* Move2Burn */ = {
 			isa = PBXGroup;
 			children = (
+				250BA0AB2B27C7C0009404D2 /* Environment */,
 				25C405D72A94FFA300F3AB87 /* Screens */,
 				25391EFE2A900F800036AECE /* Move2BurnApp.swift */,
 				25391F022A900F890036AECE /* Assets.xcassets */,
@@ -155,6 +166,7 @@
 				255C40652A965181000FAFD8 /* GoalCardView.swift in Sources */,
 				25C405DA2A94FFDB00F3AB87 /* CardView.swift in Sources */,
 				25391EFF2A900F800036AECE /* Move2BurnApp.swift in Sources */,
+				250BA0AD2B27C805009404D2 /* HealthManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

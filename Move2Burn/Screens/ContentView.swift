@@ -9,6 +9,7 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
+    @EnvironmentObject var manager: HealthManager
     let progress: Double = 0.75
     
     var body: some View {
@@ -29,6 +30,7 @@ struct ContentView: View {
             }
             .padding(.horizontal)
         }
+        .environmentObject(manager)
 }
 
     struct ContentView_Previews: PreviewProvider {

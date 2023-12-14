@@ -9,11 +9,11 @@ import SwiftUI
 
 @main
 struct Move2BurnApp: App {
-
+    @StateObject var manager = HealthManager()
     var body: some Scene {
         WindowGroup {
             ContentView()
-                
+                .environmentObject(manager)
         }
     }
 }

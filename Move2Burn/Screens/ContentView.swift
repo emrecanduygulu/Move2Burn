@@ -23,9 +23,9 @@ struct ContentView: View {
                     .frame(width: 100, height: 150)
             }
             LazyVGrid(columns: Array(repeating: GridItem(spacing: 20), count: 2)) {
-                CardView(symbol: Image(systemName:"heart.fill"), title: "Heart Rate", subtitle: "145")
+                CardView(activity: Activity(id: 0, symbol: Image(systemName: "heart.fill"), title: "Heart Rate", subtitle:  "145"))
                 
-                CardView(symbol: Image(systemName:"lungs.fill"), title: "VO2 Max", subtitle: "42")
+                CardView(activity: Activity(id: 1, symbol: Image(systemName: "lungs.fill"), title: "VO2", subtitle: "42"))
                 
             }
             .padding(.horizontal)
